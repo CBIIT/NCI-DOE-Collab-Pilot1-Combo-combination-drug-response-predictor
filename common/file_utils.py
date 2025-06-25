@@ -12,6 +12,7 @@ from six.moves.urllib.error import URLError, HTTPError
 import requests
 from generic_utils import Progbar
 from  modac_utils import get_file_from_modac
+from urllib.parse import urlparse
 
 
 # Under Python 2, 'urlretrieve' relies on FancyURLopener from legacy
